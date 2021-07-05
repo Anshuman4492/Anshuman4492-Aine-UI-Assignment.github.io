@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: rgba(245, 245, 247);
+}
+
+.nav {
+    position: absolute;
+    height: 100vh;
+    width: 137px;
+    top: 0;
+    /* border: 2px solid red; */
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.nav img {
+    height: 120px;
+    width: 137px;
+}
+
+.nav ul li {
+    padding: 12px;
+    list-style: none;
+}
+
+.logos {
+    font-size: 30px;
+    color: rgb(134, 142, 150);
+}
+
+.active {
+    margin: auto;
+    padding: 12px;
+    height: 105px;
+    width: 137px;
+    background-color: rgb(213, 224, 237);
+    border-left: 4px solid rgb(79, 118, 203);
+    transform: translateX(-9%);
+}
+
+.active a {
+    padding: 10px;
+}
+
+.active a p {
+    color: black;
+}
+
+.nav ul li a {
+    text-align: center;
+    text-decoration: none;
+}
+
+.nav ul li a h5 {
+    font-size: 12px;
+    color: rgb(134, 142, 150);
+}
+
+.main {
+    position: relative;
+}
+
+.main p {
+    position: absolute;
+    font-size: 1rem;
+    top: 325px;
+    left: 800px;
+}
+
+.box-1 {
+    margin: 0 auto;
+    height: 120px;
+    width: 100vw;
+    background-color: white;
+}
+
+.section {
+    position: absolute;
+    top: 160px;
+    left: 180px;
+    color: rgb(134, 142, 150);
+    font-size: 18px;
+}
+
+.section span {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.section-2 {
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    top: 250px;
+    left: 300px;
+    color: gray;
+}
+
+.section-2 .box-2 {
+    margin: 0 auto;
+    height: 40px;
+    width: 1100px;
+    border-radius: 7px 7px 7px 7px;
+    background-color: white;
+    padding: 10px 10px 10px 10px;
+}
+
+.section-2 .box-2 h4 {
+    font-size: 18px;
+}
+
+.section-3 {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 215px;
+    left: -320px;
+    color: gray;
+    font-size: 20px;
+}
+
+.section-3 .box-3 {
+    position: relative;
+    margin: 0 auto;
+    height: 200px;
+    width: 200px;
+    background-color: white;
+    padding: 7px 7px 10px 10px;
+}
+
+.section-3 .box-3 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-59%, -50%);
+    font-size: 19px;
+    font-weight: bolder;
+    color: black;
+}
